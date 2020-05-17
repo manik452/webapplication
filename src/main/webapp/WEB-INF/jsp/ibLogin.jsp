@@ -5,7 +5,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body>
-<h1><c:out value="${transactionId}"/></h1>
 <form method="POST" action='/ibs_payment/billLogin'>
     <input type="text" name="spk" id="spk" placeholder="City Secure Payment Key" value="">
     <input type="text" name="sti" id="sti" placeholder="Merchant Transaction Id" >
